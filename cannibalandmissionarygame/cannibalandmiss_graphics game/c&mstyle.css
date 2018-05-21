@@ -1,0 +1,129 @@
+html, .formal,.boat{
+   background-color: blue;
+            width: 100%;
+            height: 100%;
+            margin: 0; 
+            padding: 0;
+}
+body,.gameover{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0; 
+   padding: 0;
+   background-color: #b0e0e6;
+   
+}
+.center
+{
+   margin:auto;
+   width:100%;
+   background-color:#b0e0e6;
+   font-size:120px;
+   text-align:center;
+   position:relative;
+   top:35%;
+   margin-top: -60px; 
+   cursor:pointer;
+}
+.center p{
+   font-size:large;
+}
+.rules{
+left:25%;
+width:50%;
+border: solid;
+font-size: small;
+top:2%;
+position: absolute;
+
+
+}
+
+.formal{
+   position:relative;
+text-align: center;
+display:none;
+font-size: x-large;
+
+}
+.gameover{top:0%;
+   line-height: 300%;
+   display:none;
+   font-size:xx-large;
+   text-align: center;
+   cursor:pointer;
+}
+.bankl{position:absolute;
+   width:30%;
+   background-color: brown;
+   height: 15%; 
+      top:50%;
+float:left;
+font-size:x-large;
+
+
+}
+.bankr{position:relative;
+   width:30%;
+   background-color: brown;
+   height: 15%; 
+      top:50%;
+float:right;
+font-size:x-large;
+
+}
+
+.humanl{ position:absolute;
+   width:4%;
+   left:8%;
+   bottom:50%;
+   cursor:pointer;
+ 
+}
+.humanr{ position:absolute;
+
+   width:4%;
+   right:8%;
+ bottom:50%;
+ cursor:pointer;
+
+  
+}
+.ghostl{ position:absolute;
+   
+   width:4%;
+   left:16%; 
+ bottom:50%;
+ cursor:pointer;
+}
+.ghostr{ position:absolute;
+   
+   width:4%;
+   right:16%;
+    bottom:50%;
+cursor:pointer;
+
+}
+.boati{position:absolute;
+   width:10%;
+   background-color: green;
+   height: 10%; 
+      top:55%;
+left:30%;
+
+}
+.humanb{ position:absolute;
+   
+   width:3%;
+   left:31%;
+    bottom:44%;
+cursor:pointer; 
+}
+.ghostb{ position:absolute;
+   
+   width:3%;
+   left:36%;
+    bottom:44%;
+ cursor:pointer;
+}
